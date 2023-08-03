@@ -3,7 +3,7 @@ kind: ReplicationController
 metadata: 
   name: abhi-nginx-rc
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     app: mynginx
   template:
